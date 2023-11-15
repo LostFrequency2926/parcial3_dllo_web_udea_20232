@@ -64,7 +64,7 @@ searchCityButton.addEventListener("click", async () => {
           weatherImageSrc = "images/mist.png";
           break;
         default:
-          weatherImageSrc = "images/default.png";
+          weatherImageSrc = "images/clear.png";
           break;
       }
       imgWeather.src = weatherImageSrc;
