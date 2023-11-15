@@ -60,6 +60,9 @@ searchCityButton.addEventListener("click", async () => {
         case "Drizzle":
           weatherImageSrc = "images/drizzle.png";
           break;
+        case "Snow":
+          weatherImageSrc = "images/snow.png";
+          break;
         case "Mist":
           weatherImageSrc = "images/mist.png";
           break;
