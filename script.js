@@ -41,8 +41,8 @@ searchCityButton.addEventListener("click", async () => {
       //Asigno los datos del api a los elementos del DOM
       tempWeather.innerHTML = `${Math.round(response.data["main"]["temp"])}°C`;
       cityWeather.innerHTML = response.data["name"];
-      humedityWeather.innerHTML = `${response.data["main"]["humidity"]} %`;
-      windWeather.innerHTML = `${response.data["wind"]["speed"]} km/h`;
+      humedityWeather.innerHTML = `${response.data["main"]["humidity"]}%`;
+      windWeather.innerHTML = `${response.data["wind"]["speed"]}km/h`;
 
       //case para setear la imagen en la card dependiendo de la respuesta del api
       const weatherCondition = response.data.weather[0]["main"];
